@@ -7,12 +7,12 @@ namespace TWillm;
 
 class About extends Me
 {
-    public function getCurrentWorkplace(): array
+    public function getCurrentStatus(): array
     {
         return [
-            'workplace' => [
-                'company' => 'Freshmile Services',
-                'position' => 'Laravel Backend Develop - DevOps',
+            'status' => [
+                'actualJob' => 'Laravel Backend Develop - DevOps',
+                'resume' => 'Using Laravel, VueJS, Docker, also working on CI/CD and follow DevOps movement',
             ],
         ];
     }
