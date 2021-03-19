@@ -11,7 +11,7 @@ class About extends Me
     {
         return [
             'status' => [
-                'actualJob' => 'Laravel Backend Develop - DevOps',
+                'actualJob' => 'Laravel Backend Developer - DevOps',
                 'resume' => 'Using Laravel, VueJS, Docker, also working on CI/CD and follow DevOps movement',
             ],
         ];
