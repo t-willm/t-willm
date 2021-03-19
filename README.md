@@ -1,16 +1,51 @@
 ### Hi there 👋
 
-<!--
-**t-willm/t-willm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+<?php 
 
-Here are some ideas to get you started:
+namespace TWillm;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Freshmile Services',
+                'position' => 'Laravel Backend Develop - DevOps',
+            ],
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Lumen::class,
+            Vuejs::class,
+            jQuery::class,
+            MySQL::class,
+            MariaDB::class,
+            Nginx::class,
+            Docker::class,
+            GitlabCI::class,
+            GitGitflow::class,
+            UnitTests::class,
+            Tdd:class,
+            Devops::class,
+        ];
+    }
+
+    public function getFutureGoals(): array
+    {
+        return [
+            'Contribute to open source.',
+            'Learn Ruby and Ruby On Rails',
+            'Learn Python and Ansible',
+            'Learn React',
+        ];
+    }
+}
+```
