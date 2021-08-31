@@ -45,6 +45,11 @@ class About extends Me
             'Learn Ruby and Ruby On Rails',
             'Learn Python and Ansible',
             'Learn React',
+            'Learn Go',
+            'Lean NodeJS',
+            'Learn Typescript',
+            'Learn Rust',
+            'Learn Elixir',
         ];
     }
 }
