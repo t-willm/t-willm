@@ -12,7 +12,7 @@ class About extends Me
         return [
             'status' => [
                 'actualJob' => 'Laravel Backend Developer - DevOps',
-                'resume' => 'Using Laravel, VueJS, Docker, also working on CI/CD and following DevOps movement',
+                'resume' => 'Using Laravel, VueJS, Docker, also working on CI/CD and following DevOps mindset',
             ],
         ];
     }
